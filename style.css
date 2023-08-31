@@ -79,10 +79,12 @@ border-radius: 5px;
 padding: 1rem;
 background: brown;
 transition: all .1s ease-in-out;
+
 }
 .receita__botao:hover{
     cursor: pointer;
     background: cadetblue;
+ 
 
 }
 .quem-somos__titulo{
@@ -90,7 +92,6 @@ transition: all .1s ease-in-out;
     color: brown;
     font-size: 3.1875rem;
     font-family: cursive;
-
 }
 .quem-somos{
     text-align: center;
@@ -100,7 +101,37 @@ transition: all .1s ease-in-out;
     font-weight: 100;
     font-size: 1.75rem;
 }
+nav li {
+    display: inline;
+}
+.menu-link {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
+.receita__titulo{
+text-align: center;
 
+}
+.receita__descricao {
+    text-align: center;
+}
+.valor {
+    text-align: center;
+}
+button {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 30%;
+    margin-top: 30px;
+}
+.valor-avista {
+    border: none;
+border-radius: 5px;
+padding: 1rem;
+transition: all .1s ease-in-out;
+}
 
 
 
