@@ -132,6 +132,9 @@ border-radius: 5px;
 padding: 1rem;
 transition: all .1s ease-in-out;
 }
+copy {
+    text-aliegn:center
+}
 
 
 
